@@ -40,12 +40,7 @@ public class Login extends JFrame
 	
 	public static void main(String[] args) 
 	{
-		 Socket clientSocket = null; 
-		try {
-			clientSocket = new Socket("localhost", 55); 
-		    } catch (IOException e) {
-		      System.err.println(e);
-		    }
+		
 		
 		SwingUtilities.invokeLater(new Runnable() {
 		      public void run() {
