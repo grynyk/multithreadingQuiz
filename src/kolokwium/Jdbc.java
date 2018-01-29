@@ -31,17 +31,6 @@ public class Jdbc extends Thread
 
   public static void main (String args []) 
   {
-	 
-	  ServerSocket serverSocket = null;
-	    Socket clientSocket = null;
-	   
-	    try {
-	      serverSocket = new ServerSocket(55);
-	      
-	    } catch (IOException e) {
-	      System.out.println(e);
-	    }
-
 	    
 	    
 	  
